@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Sample</title>
+</head>
+<body>
+
+    <!-- Sample jQuery references placed immediately open the ending body tag -->
+		
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+		
+		<!-- This code assumes you are inside a subfolder and need to get out so you can get into the js folder -->
+        <script src="../js/jquery-ui-1.13.2/jquery-ui.min.js'/>"></script>	
+        <script src="../js/jquery.slicknav.min.js'/>"></script>
+		
+		<!-- This code is an anonymous function expression/arrow function for setting up SlickNav -->
+		<script type="text/javascript">
+				$(() => {
+					$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+				});
+		</script> 
+
+        <!-- The jQuery (JavaScript) file that does the work of the app -->
+        <script src="js/future_value.js"></script>   
+</body>
+
+
+</html>

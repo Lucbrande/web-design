@@ -1,0 +1,1 @@
+go over some of the spelling that i have done, for the dice page look for the UL part of it because it is set to 4900 instead of the normal size of the html for dice

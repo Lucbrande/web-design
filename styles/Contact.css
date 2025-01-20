@@ -1,0 +1,251 @@
+body{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 950px; 
+    width: 95%;
+    margin: 1em auto;
+    padding: 0;
+    
+    box-shadow: 0 10px 1000px 20px;
+
+}
+
+body{
+    padding: 2%;
+    background-image: linear-gradient(0deg, Grey 45%, Black 95%);
+}
+
+header{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img{
+        order: 1;
+        height: 150px;
+        width: 300px;
+        /* padding: 0 25em; */
+        margin: 0 auto;
+    
+      
+}
+header h2{
+    order: 2;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 250%;
+    font-style: italic;
+    color: lightgray;
+    margin-bottom: 1%;
+    /* text-indent: 10%; */
+    margin: 1em auto;
+}
+
+header h3{
+    order: 3;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 150%;
+    font-style: italic;
+    color: gray;
+    margin-bottom: 1%;
+    /* text-indent: 10%; */
+    margin: 0.5em auto;
+}
+
+section{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+section img {
+    order: 0;
+    height: 150px;
+    width: 150x;
+    padding: 0 25em;
+}
+section h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 200%;
+    font-style: italic;
+    margin: 1em auto;
+}
+section h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 175%;
+    font-style: italic;
+    margin: 1em auto;
+}
+
+/* footer{
+    clear:both;
+    background-color: darkgray;
+    padding: 5%;
+} */
+section h2{
+    font-size: 300%;
+}
+footer p{
+    clear:both;
+    background-color: darkgray;
+    padding: 5%;
+    font-size: 200%;
+    text-align: center;
+    color: black;
+}
+section h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 200%;
+    font-style: italic;
+}
+/* go in wed to get some help with this so i can make is so when i have over links they go ack to there
+right color and when you hover over them they turn to red */
+
+nav{
+    clear: left;
+    border-bottom: 2px solid black
+    ;
+}
+
+label {
+    float: left;
+    width: 6em;
+    text-align: right; }
+input {
+    margin-left: 1em;
+    margin-bottom: .5em; }
+#button {
+    margin-left: 7em; }
+
+section fieldset select {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 13em;
+
+}
+
+nav ul{
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+}
+nav ul ul{
+
+    display: none;
+    position: absolute;
+    top: 100%;
+
+}
+nav ul ul li{
+    float: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+nav > ul::after{
+    content:"";
+    clear:both;
+    display: block;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li a{
+    text-align: center;
+    display: block;
+    padding: .7em 0;
+    background-color: black;
+    color: white;
+}
+nav ul li a.hover nav ul li a:hover{
+    color: red;
+
+}
+nav ul li a:hover, nav ul li a:focus{
+    color: red;
+}
+nav ul li:hover ul{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 900px) {
+
+    Body{    
+        font-size: 90%;   
+        box-shadow: none;    
+    }
+
+}  
+
+/*Phone in landscape (long ways)*/
+
+@media screen and (max-width: 767px)  {
+
+    #nav_menu{
+        display:none;
+    }
+
+
+
+.slicknav_menu{
+
+background: steelblue !important;
+padding: 3px !important;
+}
+
+
+#mobile_menu{
+display: block;
+}
+#mobile_menu a{
+    background-color: steelblue;
+}
+#mobile_menu a:hover, #mobile_menu a:focus{
+    color: lightsteelblue;
+}
+
+header h2{
+font-size: 200%;
+}
+
+Section { 
+
+Float:none;
+Width: 93.3334%
+
+}
+
+Aside{
+
+Float:none;
+Width: 93.344%
+}
+}
+/* Phone in portrait */
+@media screen and (max-width: 470px){
+
+    header h2{
+        Font-size: 180%
+    }
+
+    header h3{
+
+        font-size: 115%
+    }
+
+    section p{
+        font-size: 95%
+    }
+}
+/* this needs help as well i am confused on why this is not working */

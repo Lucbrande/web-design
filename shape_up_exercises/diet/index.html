@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Shape Up!</title>
+		<link rel="stylesheet" href="../styles/slicknav.css">
+		<link rel="stylesheet" href="../styles/main.css">
+		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+		<script src="../js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+			});
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<img src="../images/shape_up_logo.png" alt="shape up logo" usemap="#Shape_Up">
+			<map name="#Shape_Up">
+	
+				<area href="../index.html" shape="circle" alt="Shape Up"
+				title="shape_up" coords="70,53,47">
+	
+			</map>
+			<h2>Shape Up!</h2>
+			<h3>Find the best fit for you</h3>
+			<nav id="mobile_menu"></nav>
+			<nav id="nav_menu">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../strength/index.html">Strength</a></li>
+					<li><a href="../cardio/index.html">Cardio</a></li>
+					<li><a href="../stress/index.html">Stress</a>
+						<ul>
+							<li><a href="../stress/index.html">Stress</a></li>
+							<li><a href="../stress/tips.html">Tips</a></li>
+							<li><a href="../stress/meditate.html">Meditate</a></li>
+							<li><a href="../stress/vipassana.html">Vipassana</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html">Healthy Diet</a>
+						<ul>
+							<li><a href="index.html">Diet</a></li>
+							<li><a href="meals.html">Meals</a></li>
+							<li><a href="calories.html">calories</a></li>
+							<li><a href="bmi.html">BMI</a></li>
+								
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1>Healthy Diet</h1>
+			<h2>Under Construction</h2>
+		</main>
+		<footer>
+			<p>&copy;2023 Shape Up! | Lucian Brande</p>
+		</footer>
+	</body>
+</html>

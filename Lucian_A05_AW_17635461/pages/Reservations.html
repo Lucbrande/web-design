@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Reservations</h1>
+    </header>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+
+        </ul>
+    </nav>
+
+        <fieldset>
+            <legend>General Information</legend>
+
+            <div>
+                <label>Arrival Date:</label>
+                <input type="date" name="Date" id="ArrivalDate"><span>*</span>
+                <br><br>
+            </div>
+        <div>
+            <label>Nights:</label>
+            <input type="number" name="Nights" id="Nights"><span>*</span>
+            <br><br>
+        </div>
+            <div>
+            <label for="adults">Adults</label>
+            <select name="adults" id="adults">
+                <option value ="1">1</option>
+                <option value ="2">2</option>
+                <option value ="3">3</option>
+                <option value ="4">4</option>
+            </select>
+            <br><br>
+        </div>
+        <div>
+            <label for="children">Children</label>
+            <select name="children" id="children">
+                <option value ="1">1</option>
+                <option value ="2">2</option>
+                <option value ="3">3</option>
+                <option value ="4">4</option>
+            </select>
+            <br><br>
+        </div>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+            <div>
+                <label>Room type:</label>
+                <input type="radio" name="roomType" id="roomType">
+                <label for="roomType">Standard</label>
+                <input type="radio" name="roomType" id="roomType">
+                <label for="roomType">Business</label>
+                <input type="radio" name="roomType" id="roomType">
+                <label for="roomType">Suite</label>
+            </div>
+            <br><br>
+            <div>
+                <label>Bed type:</label>
+                <input type="radio" name="bedType" id="bedType">
+                <label for="bedType">King</label>
+                <input type="radio" name="bedType" id="bedType">
+                <label for="bedType">Queen</label>
+                <input type="radio" name="bedType" id="bedType">
+                <label for="bedType">Double</label> 
+            </div>
+            <br><br>
+            <div>
+                <label>Early Check-in:</label>
+                <input type="checkbox" name="Early" id="Early">
+                
+            </div>
+            <br><br>
+
+        </fieldset>
+        <fieldset>
+
+            <legend>Contact Information</legend>
+        <div>
+            <label>Name:</label>
+            <input type="text" name="Name" id="Name"><span>*</span>
+            <br><br>
+            <label>E-Mail:</label>
+            <input type="text" name="E-Mail" id="E-Mail"><span>*</span>
+            <br><br>
+            <label>Phone:</label>
+            <input type="text" name="Phone" id="Phone"><span>*</span>
+            <br><br>
+        </div>
+        <input  type="button" name="submit" id="submit" value="Submit Request">
+
+        </fieldset>
+
+    <script src="../js/Reservations.js"></script>
+</body>
+</html>

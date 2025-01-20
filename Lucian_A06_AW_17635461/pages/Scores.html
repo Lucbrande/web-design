@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/main2.css">
+    
+    
+    <title>AW assighnments</title>
+</head>
+<body>
+    <header>
+        <h1>Scores</h1>
+    </header>
+
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="SlideShow.html">SlideShow</a></li>
+            <li><a href="Scores.html">Scores</a></li>
+            <li><a href="ExpandCollapse.html">Expand</a></li>
+        </ul>
+ 
+    </nav>
+    <div>
+        <label>First Name:</label>
+        <input type="text" name="firstName" id="firstName">
+        <br><br>
+        <label>Last Name:</label>
+        <input type="text" name="lastName" id="lastName">
+        <br><br>
+        <label>Score:</label>
+        <input type="text" name="score" id="score">
+        <br><br>
+        <input type="button" name="studentScore" id="studentScore" value="Add Student Score">
+        <br><br>
+    </div>
+    <div>
+        <textarea id="arrayScores" name="arrayScores" rows="25" cols="50"></textarea>
+        <br><br>
+    </div>
+    <div>
+
+        <input type="button" name="ClearStudent" id="ClearStudent" value="Clear Student Score">
+        <br><br>
+        <input type="button" name="SortByLast" id="SortByLast" value="Sort By Last Name">
+        <br><br>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/Scores.js"></script>
+</body>

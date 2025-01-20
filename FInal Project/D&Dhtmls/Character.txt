@@ -1,0 +1,45 @@
+This is the pure basics of a chararcter sheet for more indepth use you can use the websice 5e.tools for fether explanation
+
+for the video link i am just going to find someone explaining how to do a chararcter sheet so that the end user doesnt have to read it all
+
+
+
+1 race a race is the 
+subrace
+class
+background
+
+1 What is a subrace? when yor first create the character you will have a main race and subrace, example orc and half orc
+2 what is a class? it tells you what you are able to do, meaning what area of attack you want to go into
+3 what is a background, this is the story of your character, it doesnt need to be really long but make sure there is a little depth inside it
+
+2 ability scores
+roll method this will refrance the dice page for its use
+2 of the possible skills
+picking your arc type
+disiding your hitpoints
+
+1 what is a roll method roll all your dice at once, what ever the added number is you put into one of the categroys 
+2 you can only add on 2 posbble skills unless the dm gives you specific instruction to do more
+3 what is your arc type this is based on your subclass which is basily picking another class
+
+3 deciding starting equipment
+this is based off of your started class and abilitys
+there are 4 major weapon catigorys that can follow with your class
+simple, ranged, marshal, fancy
+
+for example if you where to choose a rouge you may get theives tools
+
+
+1this is based off of your started classs and ability
+2there are 4 major weapon catigorys that can follow with your class
+    simple, ranged, marshal, fancy
+
+
+4 name
+this should reflect on what your race and class are
+
+say you select rouge again your name should follow, example = (name)+background
+
+1your name for the character should follow what the background of what you discribled
+2your name should follow your class

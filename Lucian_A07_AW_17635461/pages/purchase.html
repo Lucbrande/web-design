@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../jquery-ui-1.13.2.custom/jquery-ui.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Purchase Record</h1>
+    </header>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="../pages/index.html">Home</a></li>
+
+        </ul>
+    </nav>
+<section>
+
+        <div>
+            <label>E-Mail:</label>
+            <input type="text" name="E-Mail" id="E-Mail"><span>*</span>
+            
+        </div>
+       
+        <div>
+            <label>Date of Purchase:</label>
+            <input type="text" name="Date" id="datePicker"><span>*</span>
+            
+        </div>
+        
+        <div>
+            <label>Purchase Amount:</label>
+            <input type="text" name="PurchaseAmount" id="PurchaseAmount"><span>*</span>
+            
+        </div>
+        
+        
+            <label for="discount_type">Type of Discount:</label>
+            <select name="discount_type" id="discount_type">
+                <option value ="none">None</option>
+                <option value ="military">Military</option>
+                <option value ="student">student</option>
+                <option value ="aarp">AARP</option>
+            </select>
+        <div>
+          
+            
+        </div>
+        
+            <input type="button" name="Info" value="Process Information" id="Info">
+        <div>
+        </div>
+        
+            <input type="button" name="Reset" value="Reset" id="Reset">
+        <div>
+        </div>
+        
+            <label>Discounted Price:</label>
+            <input type="text" name="DisPrice" id="DisPrice">
+        <div>
+            
+             <textarea name="display" id="display"></textarea>
+            
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+    <script src="../js/purchase.js"></script>
+</body>
+</html>

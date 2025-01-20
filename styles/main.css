@@ -1,0 +1,284 @@
+body{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 950px; 
+    width: 95%;
+    margin: 1em auto;
+    padding: 0;
+    
+    box-shadow: 0 10px 1000px 20px;
+
+}
+
+body{
+    padding: 2%;
+    background-image: linear-gradient(0deg, Grey 70%, Black 95%);
+}
+
+header{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img{
+        order: 1;
+        height: 150px;
+        width: 300px;
+        /* padding: 0 25em; */
+        margin: 0 auto;
+    
+      
+}
+header h2{
+    order: 2;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 250%;
+    font-style: italic;
+    color: lightgray;
+    margin-bottom: 1%;
+    /* text-indent: 10%; */
+    margin: 1em auto;
+}
+
+header h3{
+    order: 3;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 150%;
+    font-style: italic;
+    color: gray;
+    margin-bottom: 1%;
+    /* text-indent: 10%; */
+    margin: 0.5em auto;
+}
+
+section{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+   
+}
+section img {
+    order: 0;
+    height: 150px;
+    width: 150x;
+    padding: 0 25em;
+}
+section h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 200%;
+    font-style: italic;
+    margin: 1em auto;
+    color: white;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+section h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 175%;
+    font-style: italic;
+    margin: 1em auto;
+    color: white;
+    color: white;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+section p{
+    font-size: 125%;
+    color: white;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+section ul li{
+    font-size: 125%;
+    color: white;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+/* footer{
+    clear:both;
+    background-color: darkgray;
+    padding: 5%;
+} */
+section h2{
+    font-size: 300%;
+}
+footer p{
+    clear:both;
+    background-color: darkgray;
+    padding: 5%;
+    font-size: 200%;
+    text-align: center;
+    color: black;
+}
+section h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 200%;
+    font-style: italic;
+}
+/* go in wed to get some help with this so i can make is so when i have over links they go ack to there
+right color and when you hover over them they turn to red */
+
+#nav_menu{
+    clear: left;
+    border-bottom: 2px solid black
+    ;
+}
+
+#nav_menu ul{
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu ul li{
+    float: left;
+    width: 25%;
+}
+#nav_menu ul ul{
+
+    display: none;
+    position: absolute;
+    top: 100%;
+
+}
+#nav_menu ul ul li{
+    float: none;
+}
+
+#nav_menu ul li:hover > ul{
+    display: block;
+}
+#nav_menu > ul::after{
+    content:"";
+    clear:both;
+    display: block;
+}
+#nav_menu ul{
+    margin: 0;
+    padding: 0;
+}
+#nav_menu ul li a{
+    text-align: center;
+    display: block;
+    padding: .7em 0;
+    background-color: black;
+    color: white;
+}
+#nav_menu ul li a.hover #nav_menu ul li a:hover{
+    color: red;
+
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus{
+    color: red;
+}
+#nav_menu ul li:hover ul{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    
+}
+
+#mobile_menu {display: none;}
+
+@media only screen and (max-width: 900px) {
+
+    Body{    
+        font-size: 1.5em;
+  
+    }
+
+}  
+
+/*Phone in landscape (long ways)*/
+
+@media screen and (max-width: 797px)  {
+
+    #nav_menu{ display:none;}
+    #moble_menu {display: block;}
+    .slicknav_menu{background-color: inherit !important;}
+
+    body{
+        width: 100%;
+        margin: 0;
+        
+    }
+
+/* 
+    #mobile_menu ul li{
+        float: left;
+        width: 25%;
+    } */
+
+    section img {
+
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+#mobile_menu{
+display: block;
+width: 40%;
+float: right;
+}
+/* #mobile_menu a{
+    background-color: white;
+} */
+#mobile_menu a:hover, #mobile_menu a:focus{
+    color: lightsteelblue;
+}
+
+header h2{
+font-size: 200%;
+}
+
+section { 
+
+Float:none;
+Width: 93.3334%
+
+}
+
+
+aside{
+
+Float:none;
+Width: 93.344%
+}
+}
+/* Phone in portrait */
+@media screen and (max-width: 470px){
+
+    header h2{
+        Font-size: 180%
+    }
+
+    header h3{
+
+        font-size: 115%
+    }
+
+    section p{
+        font-size: 95%
+    }
+}
+/* this needs help as well i am confused on why this is not working */

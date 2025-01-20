@@ -1,0 +1,51 @@
+This is for the Home page
+
+For a few things to go over with this is do have some ideas,
+one thing thats this page can do at the very top of it is that it
+can explain how D&D works (in basic terms) then  
+kind of go threw what each of the pages are going to explain (in decimal format)
+the pages are going to explain what they do inside of them this is just a warm up to what they do
+
+i need help on what to right inside of each HTML though,
+like what do i say for the oepening thing
+i dont know what to explain for the first paragraph--this is something that i need help with
+
+
+
+
+
+This is for the dice page
+
+as for this page it is going to explain what each of the dice is used for
+and one by one it is going to explain like what is there stats whar is there uses, 
+and every time it goes threw like what a character does i will refrance that character sheet
+
+
+
+
+
+this is for the characters page
+
+this is going to explain all of the basic characters
+and how to use the charater sheets
+
+
+
+this is for the contact us page
+
+
+
+this is unknown
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+5/1/24 notes
+
+for the moble menu i have to change the image size to a min and max size
+for the character sheet this is going to be the easiest one its just a bit of typeing, i should also include a video so the end user doesnt have to read it all
+for the dice page i need to work on the jquery to make the slide show to make it look less wordy
+
+after this i should be done with most of the webside

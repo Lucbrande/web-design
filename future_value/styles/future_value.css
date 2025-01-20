@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em auto;
+    width: 95%;
+    max-width: 900px;
+    border: 3px solid blue;
+}
+
+main{
+	display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+section{
+    padding: 2em;
+}
+h1 {
+    color: blue;
+}
+div {
+    margin-bottom: 1em;
+    display: block;
+}
+div#forButtons{
+    margin-left: 15.75em;
+}
+input[type="button"]{
+    width: 6.5em;
+}
+label {
+    display: inline-block;
+    width: 15em;
+    text-align: right;
+	margin-right: 0.5em;
+}
+span {
+    color: red;
+    font-size: .8em;
+}
+
+@media only screen and (max-width: 479px) {
+    label{
+        text-align: left;
+    }   
+    div{
+		display: inline;
+	}
+    div input[type="text"]{
+        margin-bottom: 1em;
+    }
+    div#forButtons{
+        margin-left: .10em;
+    }
+    input:disabled{
+        /* did this to push the buttons underneath */
+        margin-right: 2.5em;
+    }
+}

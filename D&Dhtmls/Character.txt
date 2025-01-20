@@ -1,0 +1,29 @@
+This is the pure basics of a chararcter sheet for more indepth use you can use the websice 5e.tools for fether explanation
+
+for the video link i am just going to find someone explaining how to do a chararcter sheet so that the end user doesnt have to read it all
+
+
+
+1 race
+subrace
+class
+background
+
+2 ability scores
+roll method this will refrance the dice page for its use
+2 of the possible skills
+picking your arc type
+disiding your hitpoints
+
+3 deciding starting equipment
+this is based off of your started class and abilitys
+there are 4 major weapon catigorys that can follow with your class
+simple, ranged, marshal, fancy
+
+for example if you where to choose a rouge you may get theives tools
+
+
+4 name
+this should reflect on what your race and class are
+
+say you select rouge again your name should follow, example = (name)+background

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Tabs</title>
+    <link rel="stylesheet" type="text/css" href="../styles/Reservation.css">
+
+    <link rel="stylesheet" href="../jquery-ui-1.13.2.custom/jquery-ui.min.css">
+</head>
+    
+<body>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="purchase.html">purchase</a></li>
+            <li><a href="Reservation.html">Reservation</a></li>
+            <li><a href="imageswap.html">imageswap</a></li>
+        </ul>
+ 
+    </nav>
+    <section>
+        <header>Rene, please look at the dialog box first</header>
+        <!-- Tabs HTML code. -->
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Book description</a></li>
+                <li><a href="#tabs-2">About the author</a></li>
+                <li><a href="#tabs-3">Who this book is for</a></li>
+            </ul>
+            
+            <div id="tabs-1">
+                <label>Arrival Date:</label>
+                <input type="text" name="Date" id="datePicker"><span>*</span>
+                <br><br>
+                <label>Nights:</label>
+                <input type="text" name="Nights" id="Nights"><span>*</span>
+                <br><br>
+                <label for="adults">adults:</label>
+                
+                <select name="adults" id="adults">
+                    <option value ="1">1</option>
+                    <option value ="2">2</option>
+                    <option value ="3">3</option>
+                    <option value ="4">4</option>
+                </select>
+                <br><br>
+                <label for="adults">children:</label>
+                <select name="child" id="child">
+                    <option value ="1">1</option>
+                    <option value ="2">2</option>
+                    <option value ="3">3</option>
+                    <option value ="4">4</option>
+                </select>
+                
+            </div>
+            <div id="tabs-2">
+                <fieldset>
+                    <legend>Room type</legend>
+
+                <br><br>
+                <label>Standard</label>
+                <input type="radio" name="standard" id="standard" value="Standard" checked>
+                <br><br>
+                <label>Buisness</label>
+                <input type="radio" name="Buisness" id="Buisness" value="Buisness">
+                <br><br>
+                <label>Suite</label>
+                <input type="radio" name="Suite" id="Suite" value="Suite">
+                <br><br>
+               </fieldset>
+               <fieldset>
+                <legend>Bed type:</legend>
+
+            <br><br>
+            <label>King</label>
+            <input type="radio" name="King" id="King" value="King" checked>
+            <br><br>
+            <label>Queen</label>
+            <input type="radio" name="Queen" id="Queen" value="Queen">
+            <br><br>
+            <label>Double</label>
+            <input type="radio" name="Double" id="Double" value="Double">
+            <br><br>
+           </fieldset>
+           <label>Early Check-in</label>
+           <input type="checkbox" name="Check-in" id="Check-in" value="Check-in">
+           
+
+          </div>
+            <div id="tabs-3">
+                <label>Name:</label>
+                <input type="text" name="Name" id="Name"><span>*</span>
+                <br><br>
+                <label>E-Mail:</label>
+                <input type="text" name="E-Mail" id="E-Mail"><span>*</span>
+                <br><br>
+                <label>Phone:</label>
+                <input type="text" name="Phone" id="Phone"><span>*</span>
+            </div>
+        </div>
+
+        <div id="dialog" title="cancelation">
+            <P>Note for rene, i think this is as far as i am getting for this part of the assighnment. i got the tabs, dialog box and date time picker to work on this page</P>
+        </div>
+        <input type="button" id="open-dialog" value="View cancelation Policies">
+        <br><br>
+        <input  type="button" name="submit" id="submit" value="Submit Request">
+        <!-- End Tabs HTML code. -->
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="../jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+    <script src="../js/reservation.js"></script>
+    <!-- <script>
+        $(document).ready( () =>
+            $("#tabs").tabs()
+        )
+    </script> -->
+</body>
+</html>
